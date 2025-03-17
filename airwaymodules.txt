@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Airway Modules</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="lmnt2.css">
+		<link rel="stylesheet" href="lmnt.css">
+
+	</head>
+
+	<body>
+	
+		<div class="mainheader"><!-- Header with title pic -->
+		  <p></p><h1>In-House <br>
+		  Orientation Courses</h1><p></p>
+		</div>
+
+		<!-- Navigation bar class formatting -->
+	<div class="navbar">
+	  <a href="index.html" class="active">Home</a>
+	  <div class="dropdown">
+		<button class="dropbtn" style="font-size: 25px">In-House Courses</button>
+			<div class="dropdown-content">
+		<a href="airway.html">Airway Management</a>
+		<a href="ultrasound.html">Ultrasound Courses</a>
+			</div>
+	  </div>
+	  <a href="oscourses.html">Outsourced Courses</a>
+	  <a href="notifications.html">Notifications</a>
+	  <a href="schedules.html">Schedules and Outlines</a>
+	  <a href="procedures.html">Forms and Procedures</a>
+	  <a href="https://theuwi-my.sharepoint.com/:b:/g/personal/30012308_uwi_edu/EW3Epe7UrcxLmhY1nKNUMeIBErM0u_FQgYxomlDblZO2Tw?e=6OaDXk">Casebook Corner</a>
+	  <a href="login.html" class="right">Login</a>
+	</div>
+		
+<!-------------------------------------------------------->
+	
+	<!--Basic Projects Container-->
+		<div class="projectsgrid-container">
+		  <div class="header">
+			<h2>Modules 1-3</h2>
+		  </div>
+		  <!--Left Column-->
+		  <div class="left" id="gallery"><center>
+			<a href="#">
+			<img src="lmntPics\Principles.jpeg" alt="Module1" height="260"></a><p><b>Module 1:</b></p>
+			<p>Principles of Airway Management</p></center>
+		  </div>  
+		  <!--Middle Column-->
+		  <div class="middle" id="gallery"><center>
+			<a href="#">
+			<img src="lmntPics\safesedation.jpg" alt="Module2" height="200"></a><p><b>Module 2:</b></p>
+			<p>Safe Sedation</p></center>
+		  </div>
+		  <!--Right Column-->
+		  <div class="rights" id="gallery"><center>
+			<a href="">
+			<img src="lmntPics\pharmacology.jpg" alt="Module3" height="230"></a>
+			<p></p>
+			<p><b>Module 3:</b></p>
+			<p>Pharmacology</p></center>			
+		  </div>
+		  
+		  <div class="header">
+			<h2>Modules 4-6</h2>
+		  </div>
+		  <!--Left Column-->
+		  <div class="left" id="gallery"><center>
+			<a href="#">
+			<img src="lmntPics\AMEquip.jpg" alt="Module1" height="260"></a><p><b>Module 4:</b></p>
+			<p>Airway Equipment</p></center>
+		  </div>  
+		  <!--Middle Column-->
+		  <div class="middle" id="gallery"><center>
+			<a href="#">
+			<img src="lmntPics\AMCLogo.jpg" alt="Module2" height="200"></a><p><b>Module 5:</b></p>
+			<p>RSI</p></center>
+		  </div>
+		  <!--Right Column-->
+		  <div class="rights" id="gallery"><center>
+			<a href="">
+			<img src="lmntPics\obeseairway.jpeg" alt="Module3" height="230"></a>
+			<p></p>
+			<p><b>Module 6:</b></p>
+			<p>Obesity and the Airway</p></center>			
+		  </div>
+		</div><!--End Basic Projects Container-->
+
+	
+		  
+		  <div class="footer">
+			<p><small><b>Copyright <sup>&copy;</sup> 2025 EMU Programmes</b></small></p>
+		  </div><!--end footer-->
+		</div><!--End Special Projects Container-->
+	</body>
+</html>
